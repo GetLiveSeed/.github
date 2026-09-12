@@ -6,17 +6,19 @@ labels: enhancement
 assignees: ''
 ---
 
-**Is your feature request related to a problem? Please describe.**
-A clear and concise description of what the problem or limitation is (e.g., I'm always frustrated when [...] ).
+**Problem Statement**
+A clear and concise description of the problem or limitation (e.g., I'm always frustrated when [...]).
 
-**Describe the Solution You'd Like**
+**Proposed Solution**
 A clear and concise description of what you want to happen.
 
-**Describe Alternatives You've Considered**
-A clear and concise description of any alternative solutions or workarounds you've considered.
+**Alternatives Considered**
+Any alternative solutions or features you've considered.
 
-**Use Case / Impact**
-Explain how this helps developers using LiveSeed projects or templates.
+---
 
-**Additional Context**
-Add any other context, wireframes, or API mockups here.
+**Implementation Commit Guidelines**
+> If you plan to implement this proposal, follow our commit standards:
+- [ ] Feature commit format: `feat(<scope>): <short description>`
+- [ ] Branch format: `feat/<short-name>`
+- [ ] Keeps subject lines under 72 characters with no trailing period
