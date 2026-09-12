@@ -10,7 +10,6 @@ assignees: ''
 A clear and concise description of what the bug is.
 
 **Steps to Reproduce**
-Steps to reproduce the behavior:
 1. Go to '...'
 2. Run command '...'
 3. See error
@@ -18,14 +17,16 @@ Steps to reproduce the behavior:
 **Expected Behavior**
 A clear and concise description of what you expected to happen.
 
-**Screenshots / Error Logs**
-If applicable, add screenshots or console output to help explain your problem.
+**Environment Details**
+- OS: [e.g., macOS, Ubuntu, Windows]
+- Node.js Version: [e.g., 20.x]
+- Project / Package: [e.g., liveseed-starter]
 
-**Environment Details:**
- - OS: [e.g. macOS, Ubuntu, Windows]
- - Node.js Version: [e.g. 20.x]
- - Package / Project: [e.g. liveseed-starter]
- - Browser (if applicable): [e.g. Chrome, Safari]
+---
 
-**Additional Context**
-Add any other context about the problem here.
+**Contributor Commit Checklist**
+> If you plan to submit a fix for this bug, ensure your branch and commits follow our rules:
+- [ ] Commit format: `<type>(<scope>): <description>` (e.g., `fix(auth): resolve session token expiration`)
+- [ ] Uses imperative, lowercase tense (`fix: fix bug`, not `Fixed bug`)
+- [ ] Allowed types: `fix`, `feat`, `docs`, `refactor`, `perf`, `test`, `chore`
+- [ ] Branch named with conventional prefix (e.g., `fix/issue-description`)
